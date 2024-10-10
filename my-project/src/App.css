@@ -1,0 +1,40 @@
+/*
+PALETA DE COLORES
+#eaeaea hueso
+#EFF5FC azul
+#a5a5a5 gris
+#fec702 amarrillo
+*/
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem .1rem;
+}
+
+body {
+  font-size: x-small;
+}
+
+
+/*inputs styles*/
+input{
+  font-size: x-small;
+}
+
+input::placeholder {
+  font-size: x-small;
+}
+
+input[type="date"] {
+  font-size: x-small;
+}
+
+input, input:not(:placeholder-shown) {
+  font-size: x-small !important;
+}
+
+.btn {
+  font-size: x-small;
+  color:black;
+}

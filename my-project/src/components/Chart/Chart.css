@@ -1,0 +1,39 @@
+/*
+PALETA DE COLORES
+#eaeaea hueso
+#EFF5FC azul
+#a5a5a5 gris
+#fec702 amarrillo
+*/
+
+#stagesTitle{
+    margin: 1rem;
+    font-weight: bold;
+}
+
+#table-div{
+    margin: 3rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+th {
+    padding: 10px; 
+    text-align: center; 
+    background-color:#a5a5a5 ;
+}
+
+table {
+    width: 100%; 
+    border-collapse: separate; 
+    border-spacing: 5px; 
+}
+
+#edit-cell {
+    width: 70px; 
+}
+
+#delete-cell {
+    width: 70px;
+}
+

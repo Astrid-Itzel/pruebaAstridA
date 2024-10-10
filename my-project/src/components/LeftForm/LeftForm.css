@@ -1,0 +1,27 @@
+/*
+PALETA DE COLORES
+#eaeaea hueso
+#EFF5FC azul
+#a5a5a5 gris
+#fec702 amarrillo
+*/
+
+
+#priorityProjectButton{
+    background-color: #fec702;
+    border-color: #fec702;
+    border-radius: 100px;
+    padding: 5px 25px 5px 25px;
+    height: 100%;
+    margin-left: 20px;
+}
+
+input{
+    margin-bottom: 15px;
+}
+
+.objectives-select,
+.objectives-select option {
+  font-size: x-small;
+  margin-bottom: 15px;
+}
