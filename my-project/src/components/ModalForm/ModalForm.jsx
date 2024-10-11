@@ -34,12 +34,13 @@ function ModalForm({ onClose, onAdd }) {
                     <form id='modalForm'>
                     <div className="modalForm-input">
                         <label htmlFor="titleInput">Título de la iniciativa</label>
-                        <input type="text" className="form-control" id="titleInput"  />
+                        <input type="text" className="form-control" id="titleInput" value={title} 
+                        onChange={(e) => setTitle(e.target.value)} />
                     </div>
                     <div className="modalForm-input">
                         <label htmlFor="descriptionInput">Descripción de la etapa</label>
-                        <input type="text" className="form-control" id="descriptionInput" value={title} 
-                        onChange={(e) => setTitle(e.target.value)} /> {/* Guarda el valor en el estado */}
+                        <input type="text" className="form-control" id="descriptionInput" value={description} 
+                        onChange={(e) => setDescription(e.target.value)} /> {/* Guarda el valor en el estado */}
                     </div>
                     <div className="modalForm-input">
                         <label htmlFor="productInput">Entregable de la etapa</label>
